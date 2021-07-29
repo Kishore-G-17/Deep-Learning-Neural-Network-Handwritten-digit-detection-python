@@ -1,0 +1,17 @@
+Date: 28/07/21
+Topic: Neural network and keras
+
+Neural network:
+-> It is a network of neurons.
+-> Neuron: It has mainly two parts namely 'linear eqn' and 'activate fn(sigmoid)'
+-> sigmoid fn: The mathematical function to convert the value between 0 and 1.
+-> Generally, A neural network has 3 layers namely Input layer, Hidden layer, Output layer.
+-> keras: It is basically a wrapper for tensorflow that will give the useful API's to use.
+
+Important points to remember in the below task:
+-> Inorder to view the 2D handwritten image using matshow() function in matplotlib.pyplot module.
+   You will need the argument in the 2D array format.
+   
+Task:
+-> Task name: Neural network for handwritten digit detection.
+-> 
