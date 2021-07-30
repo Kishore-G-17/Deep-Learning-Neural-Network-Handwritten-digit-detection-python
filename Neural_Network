@@ -14,4 +14,11 @@ Important points to remember in the below task:
    
 Task:
 -> Task name: Neural network for handwritten digit detection.
--> 
+
+Confusion matrix:
+-> It shows the detailed info about our neural network predicted output.
+-> confusion_matrix = tf.math.confusion_matrix(labels = y_test, predictions = y_predicted_output_labels)
+-> import seabrn as sn
+-> sn.heatmap(confusion_matrix, annot=True, fmt='d')
+-> plt.xlabel('predictions')
+-> plt.ylabel('truth')
